@@ -3,7 +3,7 @@ package wiproday2;
 public class BankingSystemException {
     public static void main(String[] args) {
         try {
-            // **1. NullPointerException Example**
+            
             String customerName = null; // Customer name is not assigned
             System.out.println("Customer Name: " + customerName.toLowerCase()); // Triggers NullPointerException
 
@@ -16,7 +16,7 @@ public class BankingSystemException {
         System.out.println("----------------------");
 
         try {
-            // **2. ArrayIndexOutOfBoundsException Example**
+            
             int[] transactions = {500, 1000, 1500}; // Transaction history
             System.out.println("Last Transaction: " + transactions[5]); // Invalid index, triggers ArrayIndexOutOfBoundsException
 
